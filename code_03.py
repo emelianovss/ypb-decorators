@@ -21,7 +21,7 @@ def counter_local_with_change():
     return inner
 
 c_1 = counter_local_with_change()
-print(c_0.__closure__)
+print(c_1.__closure__)
 try:
     c_1()
 except UnboundLocalError as e:
