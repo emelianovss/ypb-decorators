@@ -7,14 +7,6 @@
 
 # Your code here
 
-def decorator(num):
-    def inner(func):
-        def wrapper(*args):
-            result = func(*args)
-            return result * num
-        return wrapper
-    return inner
-
 
 @decorator(2)
 def my_sum_1(*args):
