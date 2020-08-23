@@ -1,5 +1,6 @@
 """
 >>> print(my_sum(1, 2))
+Cache call 0
 Call my_sum
 3
 >>> print(my_sum(1, 2))
@@ -9,11 +10,13 @@ Cache call 1
 Cache call 2
 3
 >>> print(my_diff(1, 2))
+Cache call 0
 Call my_diff
 -1
->>> print(my_diff(1, 2))
-Cache call 1
--1
+>>> print(my_diff(2, 2))
+Cache call 0
+Call my_diff
+0
 """
 
 
