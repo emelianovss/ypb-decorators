@@ -2,7 +2,7 @@
 >>> router('sum', 'POST', 1, 2, 3)
 Sum is 6
 >>> router('inc', 'GET', 5)
-Sum is 6
+Incremented is 6
 """
 
 class Router:
