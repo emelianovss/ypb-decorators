@@ -23,7 +23,8 @@ def my_diff(a, b):
     return a - b
 
 
-print(my_sum(1, 2))
-print(my_sum(1, 2))
-print(my_diff(1, 2))
-print(my_diff(1, 2))
+if __name__ == '__main__':
+    print(my_sum(1, 2))
+    print(my_sum(1, 2))
+    print(my_diff(1, 2))
+    print(my_diff(1, 2))

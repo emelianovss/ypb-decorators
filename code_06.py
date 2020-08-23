@@ -26,6 +26,7 @@ def increment(arg):
     return f'Incremented is {arg + 1}'
 
 
-router('sum', 1, 2, 3)
-router('inc', 10)
-router('other')
+if __name__ == '__main__':
+    router('sum', 1, 2, 3)
+    router('inc', 10)
+    router('other')
