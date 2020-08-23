@@ -1,3 +1,23 @@
+"""
+>>> print(my_sum(1, 2))
+Call my_sum
+3
+>>> print(my_sum(1, 2))
+Cache call 1
+3
+>>> print(my_sum(1, 2))
+Cache call 2
+3
+>>> print(my_diff(1, 2))
+Call my_diff
+-1
+>>> print(my_diff(1, 2))
+Cache call 1
+-1
+"""
+
+
+# Change code here
 def cache(func):
     _cache = {}
     def inner(*args):
@@ -23,7 +43,6 @@ def my_diff(a, b):
     return a - b
 
 
-print(my_sum(1, 2))
-print(my_sum(1, 2))
-print(my_diff(1, 2))
-print(my_diff(1, 2))
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
