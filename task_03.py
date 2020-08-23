@@ -3,6 +3,8 @@
 Sum is 6
 >>> router('inc', 'GET', 5)
 Incremented is 6
+>>> router('inc', 'POST', 5)
+Not found
 """
 
 class Router:
