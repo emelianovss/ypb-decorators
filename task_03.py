@@ -27,7 +27,7 @@ class Router:
 
 router = Router()
 
-@router.route('sum')
+@router.route('sum', 'POST')
 def handler(*args):
     return f'Sum is {sum(args)}'
 
